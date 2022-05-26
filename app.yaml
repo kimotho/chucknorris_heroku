@@ -1,0 +1,11 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /
+  static_files: dist/chucknorris-api/index.html
+  upload: dist/chucknorris-api/index.html
+
+- url: /
+  static_dir: dist/chucknorris-api
